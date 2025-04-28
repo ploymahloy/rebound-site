@@ -5,18 +5,18 @@ const Home = () => {
     {
       title: 'Industrial Automation System',
       description: 'State-of-the-art automation solution implemented for a leading manufacturing facility, increasing production efficiency by 40%.',
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112f8f1f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
     },
     {
       title: 'Factory Modernization',
       description: 'Complete factory modernization project including equipment upgrades, process optimization, and worker training.',
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112f8f1f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
     },
     {
       title: 'Sustainable Energy Solutions',
       description: 'Implementation of renewable energy systems and energy-efficient processes in industrial settings.',
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112f8f1f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    },
+      image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
+    }
   ];
 
   return (
