@@ -1,2 +1,2 @@
-Client: Rebound Industrial Maintenance
-POC: Weston Craig
+- Client: Rebound Industrial Maintenance
+- POC: Weston Craig
