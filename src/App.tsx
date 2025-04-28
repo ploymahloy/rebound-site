@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import Applications from './components/Applications';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/applications" element={<Applications />} />
         </Routes>
       </div>
     </Router>

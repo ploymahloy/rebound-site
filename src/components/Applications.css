@@ -1,0 +1,149 @@
+.applications {
+  padding-top: 80px;
+}
+
+.applications-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.applications-hero-content {
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.applications-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.applications-hero-content p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.applications-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+}
+
+.job-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.job-header {
+  margin-bottom: 1.5rem;
+}
+
+.job-header h2 {
+  color: #1a1a1a;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-meta {
+  display: flex;
+  gap: 1rem;
+  color: #666;
+}
+
+.job-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.job-description {
+  margin-bottom: 1.5rem;
+}
+
+.job-description p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.job-requirements {
+  margin-bottom: 1.5rem;
+}
+
+.job-requirements h3 {
+  color: #1a1a1a;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.job-requirements ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #666;
+}
+
+.job-requirements li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.job-actions {
+  text-align: center;
+}
+
+.apply-button {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .applications-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .applications-hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .applications-content {
+    padding: 2rem 1rem;
+  }
+
+  .job-listings {
+    grid-template-columns: 1fr;
+  }
+
+  .job-card {
+    padding: 1.5rem;
+  }
+}
