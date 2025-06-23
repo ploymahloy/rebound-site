@@ -3,10 +3,16 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+      title: 'Fan Repair',
+      description: 'Fabricatedreplacement blades for a large industrial fan and conducted precision balancing as part of a comprehensive repair for a local theme park’s ventilation system. This ensured reliable operation and improved performance for the client’s critical equipment.',
+      image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
+      services: ['Fan Repair']
+    },
+    {
       title: 'Platen Refurbishment',
       description: 'Provided on-site machining services to re-bore an aluminum extrusion press platen, making it compatible with upgraded equipment. This solution minimized downtime and costs while extending the service life of the client’s press components.',
       image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-      services: ['Platen Repair', 'Welding', 'Painting']
+      services: ['Platen Repair']
     },
     {
       title: 'Industrial Plant Modernization',
