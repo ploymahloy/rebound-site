@@ -44,7 +44,7 @@ const Services = () => {
     },
     {
       title: 'Power Generation',
-      description: 'Comprehensive power generation solutions and maintenance services. We work with all types of power generation equipment, ensuring reliable and efficient operation.',
+      description: 'Comprehensive power generation solutions and maintenance services. We work with all types of power generation equipment such as hydrogen casing and Seal Refurbishment, ensuring reliable and efficient operation.',
       image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
     }
   ];
