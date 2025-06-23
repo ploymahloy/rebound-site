@@ -10,9 +10,7 @@
 }
 
 .navbar-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +67,7 @@
   margin-top: -9px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 976px) {
   .menu-toggle {
     display: flex;
   }

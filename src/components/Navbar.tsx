@@ -17,7 +17,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <Link to="/" onClick={closeMenu}>Rebound Industrial Maintenance</Link>
+          <Link to="/" onClick={closeMenu}>
+            <img src="/logo.png" alt="Rebound Industrial Maintenance" />
+          </Link>
         </div>
 
         <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
