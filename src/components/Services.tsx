@@ -4,7 +4,7 @@ const Services = () => {
   const services = [
     {
       title: 'Machine Shop',
-      description: 'Precision machining services for industrial components and equipment. Our state-of-the-art facility handles everything from routine maintenance to complex custom parts manufacturing.',
+      description: 'Precision machining services for industrial components and equipment. With the ability to turn up to 72" OD, our state-of-the-art facility handles everything from routine maintenance to complex custom parts manufacturing.',
       image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
     },
     {
