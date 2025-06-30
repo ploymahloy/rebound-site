@@ -1,6 +1,6 @@
-import './Applications.css';
+import './Careers.css';
 
-const Applications = () => {
+const Careers = () => {
   const jobListings = [
     {
       title: 'Industrial Machinist',
@@ -57,15 +57,15 @@ const Applications = () => {
   ];
 
   return (
-    <div className="applications">
-      <section className="applications-hero">
-        <div className="applications-hero-content">
+    <div className="careers">
+      <section className="careers-hero">
+        <div className="careers-hero-content">
           <h1>Career Opportunities</h1>
           <p>Join our team of industrial maintenance experts</p>
         </div>
       </section>
 
-      <section className="applications-content">
+      <section className="careers-content">
         <div className="job-listings">
           {jobListings.map((job, index) => (
             <div key={index} className="job-card">
@@ -100,4 +100,4 @@ const Applications = () => {
   );
 };
 
-export default Applications;
+export default Careers;

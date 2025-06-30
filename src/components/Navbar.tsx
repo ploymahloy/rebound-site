@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to="/services" onClick={closeMenu}>Services</Link>
           <Link to="/projects" onClick={closeMenu}>Projects</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
-          <Link to="/applications" onClick={closeMenu}>Applications</Link>
+          <Link to="/careers" onClick={closeMenu}>Careers</Link>
           <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </div>
 
