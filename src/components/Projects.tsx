@@ -5,14 +5,14 @@ const Projects = () => {
     {
       title: 'Fan Repair',
       description: 'Fabricatedreplacement blades for a large industrial fan and conducted precision balancing as part of a comprehensive repair for a local theme park’s ventilation system. This ensured reliable operation and improved performance for the client’s critical equipment.',
-      image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-      services: ['Fan Repair']
+      image: './public/Shaftmachining.jpg',
+      services: [ 'Low speed balance', 'Replacement parts', 'Gearbox repair' ]
     },
     {
       title: 'Platen Refurbishment',
       description: 'Provided on-site machining services to re-bore an aluminum extrusion press platen, making it compatible with upgraded equipment. This solution minimized downtime and costs while extending the service life of the client’s press components.',
-      image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-      services: ['Platen Repair']
+      image: './public/platenproject.jpg',
+      services: ['Field Machining', 'Change Out and Alignment', 'Replacement Parts']
     },
     {
       title: 'Industrial Plant Modernization',
@@ -21,10 +21,10 @@ const Projects = () => {
       services: ['Machine Shop', 'Valve Repair', 'Change Out and Alignment']
     },
     {
-      title: 'Power Plant Compressor Overhaul',
-      description: 'Complete overhaul of critical compressor systems in a power generation facility. Our team performed field machining, gearbox repairs, and implemented new control systems to restore optimal performance.',
-      image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-      services: ['Field Machining', 'Compressor Repair', 'Gear Box Repair']
+      title: 'Manufacture Precision Motor Base',
+      description: 'Manufactured a multilevel motor/gearbox to hold a precise footprint and height requirements',
+      image: './public/motorbase.JPG',
+      services: ['Machine Shop']
     },
     {
       title: 'Water Treatment Facility Upgrade',
@@ -33,10 +33,10 @@ const Projects = () => {
       services: ['Pump Repair', 'Valve Repair', 'Replacement Parts']
     },
     {
-      title: 'Industrial Complex Power System',
-      description: 'Implementation of a new power generation system for an industrial complex, including installation, alignment, and commissioning of all components. The project resulted in a 25% reduction in energy costs.',
-      image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-      services: ['Power Generation', 'Change Out and Alignment']
+      title: 'Industrial Complex System',
+      description: 'Provide support through industrial outages, including emergency machine work and on-site support to minimize downtime and improve efficiency.',
+      image: './public/BladeMachining.jpg',
+      services: ['Power Generation', 'Change Out and Alignment', 'Valve Repair', 'Compressor Repair']
     }
   ];
 
