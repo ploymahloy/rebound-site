@@ -5,17 +5,17 @@ const Services = () => {
     {
       title: 'Machine Shop',
       description: 'Precision machining services for industrial components and equipment. With the ability to turn up to 72" OD, our state-of-the-art facility handles everything from routine maintenance to complex custom parts manufacturing.',
-      image: './public/vertical.jpg'
+      image: '../../public/vertical.jpg'
     },
     {
       title: 'Field Machining',
       description: 'On-site machining services for large equipment and structures. Our mobile units bring precision machining capabilities directly to your facility, minimizing downtime and transportation costs.',
-      image: './public/onsitemachining.jpg'
+      image: '../../public/onsitemachining.jpg'
     },
     {
       title: 'Compressor Repair',
       description: 'Expert repair and maintenance services for industrial compressors. We handle all types of compressors, from small units to large industrial systems, ensuring optimal performance and efficiency.',
-      image: './public/compressor.JPG'
+      image: '../../public/compressor.JPG'
     },
     {
       title: 'Pump Repair',
@@ -25,12 +25,12 @@ const Services = () => {
     {
       title: 'Valve Repair',
       description: 'Specialized valve repair and maintenance services. We handle all types of industrial valves, ensuring proper operation and preventing costly downtime.',
-      image: './public/threading.jpg'
+      image: '../../public/threading.jpg'
     },
     {
       title: 'Gear Box Repair',
       description: 'Expert gearbox repair and maintenance services. Our team has extensive experience working with all types of industrial gearboxes, from small units to large, complex systems.',
-      image: './public/gearbox.png'
+      image: '../../public/gearbox.png'
     },
     {
       title: 'Change Out and Alignment',
@@ -40,12 +40,12 @@ const Services = () => {
     {
       title: 'Replacement Parts',
       description: 'High-quality replacement parts for industrial equipment. We source and provide genuine parts that meet or exceed OEM specifications, ensuring reliable performance.',
-      image: './public/Housing.jpg'
+      image: '../../public/Housing.jpg'
     },
     {
       title: 'Power Generation',
       description: 'Comprehensive power generation solutions and maintenance services. We work with all types of power generation equipment such as hydrogen casing and seal refurbishment, ensuring reliable and efficient operation.',
-      image: './public/H2machining.jpg'
+      image: '../../public/H2machining.jpg'
     }
   ];
 

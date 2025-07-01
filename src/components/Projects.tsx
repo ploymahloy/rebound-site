@@ -5,13 +5,13 @@ const Projects = () => {
     {
       title: 'Fan Repair',
       description: 'Fabricatedreplacement blades for a large industrial fan and conducted precision balancing as part of a comprehensive repair for a local theme park’s ventilation system. This ensured reliable operation and improved performance for the client’s critical equipment.',
-      image: './public/Shaftmachining.jpg',
+      image: '../../public/Shaftmachining.jpg',
       services: [ 'Low speed balance', 'Replacement parts', 'Gearbox repair' ]
     },
     {
       title: 'Platen Refurbishment',
       description: 'Provided on-site machining services to re-bore an aluminum extrusion press platen, making it compatible with upgraded equipment. This solution minimized downtime and costs while extending the service life of the client’s press components.',
-      image: './public/platenproject.jpg',
+      image: '../../public/platenproject.jpg',
       services: ['Field Machining', 'Change Out and Alignment', 'Replacement Parts']
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: 'Manufacture Precision Motor Base',
       description: 'Manufactured a multilevel motor/gearbox to hold a precise footprint and height requirements',
-      image: './public/motorbase.JPG',
+      image: '../../public/motorbase.JPG',
       services: ['Machine Shop']
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: 'Industrial Complex System',
       description: 'Provide support through industrial outages, including emergency machine work and on-site support to minimize downtime and improve efficiency.',
-      image: './public/BladeMachining.jpg',
+      image: '../../public/BladeMachining.jpg',
       services: ['Power Generation', 'Change Out and Alignment', 'Valve Repair', 'Compressor Repair']
     }
   ];
